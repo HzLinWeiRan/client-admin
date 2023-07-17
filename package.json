@@ -1,0 +1,26 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-machine-id": "^1.1.12",
+    "node-rsa": "^1.1.1",
+    "systeminformation": "^5.18.7",
+    "vite": "^4.3.9"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win --x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.2.8",
+    "electron-builder": "^24.4.0"
+  }
+}
